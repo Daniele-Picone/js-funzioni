@@ -19,6 +19,13 @@ let player2 = lancioDati(2)
 
 console.log(`Giovanni con ${tiri} tiri ha totalizzato ${player1}, mentre, Pasquale ne ha totalizzati ${player2}  `);
 
-
+if( player1 > player2){
+  console.log(` Il vincitore è Giovanni con il punteggio di ${player1}`)
+}else if( player2 > player1){
+  console.log(`Pasquale è il vincitore con il punteggio di ${player2}`);
+}else{
+  console.log('Avete pareggiato');
+  
+}
 
 
