@@ -24,7 +24,7 @@ if( player1 > player2){
 }else if( player2 > player1){
   console.log(`Pasquale è il vincitore con il punteggio di ${player2}`);
 }else{
-  console.log('Avete pareggiato');
+  console.log('vete pareggiato');
   
 }
 
