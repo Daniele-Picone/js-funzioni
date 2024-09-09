@@ -4,7 +4,8 @@
 
 function conta(n) {
     for( let i = 1; i <= n; i++){
-        console.log(i);
+        
+        
         
         if( i % 15 == 0 ){
          console.log(`frizzbuzz`);
@@ -13,6 +14,9 @@ function conta(n) {
             
         }else if(i % 3 == 0){
             console.log('frizz');
+            
+        }else{
+            console.log(i);
             
         }
         
@@ -23,6 +27,6 @@ function conta(n) {
 
 
 
-let contatore = conta(100)
+let contatore = conta(200)
 
 console.log(contatore);
