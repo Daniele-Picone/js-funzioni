@@ -20,7 +20,7 @@ function cifre (numero){
         console.log(`Il ${n} non è valido`);
         
     }
-    return n
+    return revers
 }
  
 let numeroCifre = cifre(n)
